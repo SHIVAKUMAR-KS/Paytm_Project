@@ -1,5 +1,5 @@
 {
-  "name": "Paytm_Full_Stack",
+  "name": "week-18",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -16,7 +16,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@9.8.1",
+  "packageManager": "npm@10.2.4",
   "workspaces": [
     "apps/*",
     "packages/*"
