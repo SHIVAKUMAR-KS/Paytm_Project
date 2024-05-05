@@ -79,3 +79,13 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+
+1.Cloning the repo
+2.npm install
+3.cd package/db
+4.Adding a .env file with the database url,get 
+5.npx prisma migrate dev
+npx prisma generate
+6.Add .enc file to app/user-app
+8.npm run dev
