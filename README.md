@@ -18,3 +18,10 @@ docker run  -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
     - npx prisma db seed
 - Go to `apps/user-app` , run `npm run dev`
 - Try logging in using phone - 1111111111 , password - alice (See `seed.ts`)
+
+webhook checkpoint :http://localhost:3003/hdfcWebhook
+{
+    "token": "0.5366805771168328",
+    "user_identifier": 1,
+    "amount": "2000"
+}
