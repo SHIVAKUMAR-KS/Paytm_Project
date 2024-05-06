@@ -17,7 +17,6 @@ app.post("/hdfcWebhook", async (req, res) => {
         amount: req.body.amount
     };
 
-    //transaction
     try {
         await db.$transaction([
             db.balance.updateMany({
